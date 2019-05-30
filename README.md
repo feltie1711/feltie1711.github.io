@@ -1,2 +1,2 @@
-![https://feltie1711.github.io/schickundschrill/index.html][Schick und Schrill]
+[Schick und Schrill](https://feltie1711.github.io/schickundschrill/index.html)
 
