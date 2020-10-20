@@ -15,104 +15,65 @@
 
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
-        <div class="container"><a class="navbar-brand logo" href="#">DataDoc</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse"
-                id="navcol-1">
+        <div class="container"><img src="assets/img/DataDoc-Logo_64px.png"><a class="navbar-brand logo" href="./index.html">&nbsp; &nbsp; DataDoc</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="features.html">Features</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="features.html">Features</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="downloads.html">DOWNLOAD</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="pricing.html">Pricing</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="about-us.html">About Us</a></li>
                 </ul>
-            </div>
+        </div>
         </div>
     </nav>
     <main class="page landing-page">
         <section class="clean-block clean-hero" style="color: rgba(9, 162, 255, 0.85);background: url(assets/img/tech/image4.jpg);">
             <div class="text">
-                <h2 style="font-size: 48px;"><br>Discover the future of new database documentation<br><br></h2>
-                <p style="font-size: 22px;">With the all new database documentation called DataDoc you can finally combine your code with the database.</p><button class="btn btn-outline-light btn-lg" type="button">Learn More</button></div>
+                <h2><br>Discover the future of database documentation<br><br></h2>
+                <p>With DataDoc you can view all your database information in a sleak design that includes all your Java entities.<br>It also features a dependency graph.</p><button class="btn btn-outline-light btn-lg" type="button" onclick="window.location.href=&#39;/features.html&#39;">Learn More</button></div>
         </section>
         <section class="clean-block clean-info dark">
+            <div class="block-heading">
+                <h2 class="text-info">In former days&nbsp;<br></h2>
+                <p>software development was strictly separated: database developers created and managed the persistence scheme and defined tables, columns and their inter-relations. Java developers created domain object classes based on the database scheme
+                    and implemented the business logic.<br><br>Thanks to JPA these times are gone. The developer roles are fluid: Java developers think about how the entities are stored in the database or even let JPA create the database scheme and database
+                    admins must know what the application is doing to optimize the database design.<br><br></p>
+            </div>
             <div class="container">
-                <div class="block-heading">
-                    <h2 class="text-info">What if</h2>
-                    <p>you didn´t have to explain the connections between code and database to your newcomers?<br>They could learn it all by themselves.<br>fast - easy</p>
-                </div>
                 <div class="row align-items-center">
                     <div class="col-md-6"><img class="img-thumbnail" src="assets/img/scenery/image5.jpg"></div>
                     <div class="col-md-6">
-                        <h3>Don´t search, see!</h3>
+                        <h3>Why choose DataDoc?</h3>
                         <div class="getting-started-info">
-                            <p>You don´t have to search through your tables if there are any dependencies.&nbsp;<br></p>
-                        </div><button class="btn btn-outline-primary btn-lg" type="button">Use the graph!</button></div>
+                            <p>Classical&nbsp;database documentation tools analyze the database and create thereof a&nbsp;documentation of tables, columns, constraints and other database properties and&nbsp;artefacts. However, this is often not helpful.
+                                It lacks meaningful&nbsp;descriptions, the context, business relevance and an overall understanding of&nbsp;the application.<br><br>DataDoc&nbsp;goes beyond that!<br>It documents the complete persistence layer of any Java&nbsp;application
+                                that uses the Java Persistence API.&nbsp;<br></p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="clean-block features">
-            <div class="container"></div>
-            <section class="clean-block features">
-                <section class="clean-block features">
-                    <div class="container">
-                        <div class="block-heading">
-                            <h2 class="text-info">Features</h2>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-md-5 feature-box"><i class="icon-link icon"></i>
-                                <h4>Connect</h4>
-                                <p>Never search for links to your code again!</p>
-                            </div>
-                            <div class="col-md-5 feature-box"><i class="icon-eye icon"></i>
-                                <h4>Oversee</h4>
-                                <p>Have an overview of all the tables you got Use the graph to determine connections between the tables without looking at the data.</p>
-                            </div>
-                        </div>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <p><br><br></p>
                     </div>
-                </section>
-            </section>
-        </section>
-        <section class="clean-block about-us">
-            <div class="container">
-                <div class="block-heading">
-                    <h2 class="text-info">About Us</h2>
-                    <p>We are a small team of four.<br>We just want to help you getting your work done faster than ever.</p>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="assets/img/avatars/avatar1.jpg">
-                            <div class="card-body info">
-                                <h4 class="card-title">Wolfgang Winter</h4>
-                                <p class="card-text">Project Founder<br>Developer</p>
-                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h5>Java Developers<br></h5>
+                        <p>start with the JPA perspective to explore the entities, their properties, hierarchies and inter-relations. From there they analyze how the JPA items are reflected in the database.<br></p>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="assets/img/avatars/avatar2.jpg">
-                            <div class="card-body info">
-                                <h4 class="card-title">Robert Briesemeister</h4>
-                                <p class="card-text">Developer</p>
-                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
-                            </div>
-                        </div>
+                    <div class="col-sm-3">
+                        <h5>Database Admins<br></h5>
+                        <p>start with the database perspective to explore tables, columns, constraints and their properties. From the JPA view they gather additional information, contexts and the description of the persistent artifacts.<br></p>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="assets/img/avatars/avatar3.jpg">
-                            <div class="card-body info">
-                                <h4 class="card-title">Olivier Paquet</h4>
-                                <p class="card-text">Developer</p>
-                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
-                            </div>
-                        </div>
+                    <div class="col-sm-3">
+                        <h5>Project Managers</h5>
+                        <p>gain&nbsp;an overview of the complete persistence layer, they learn about the important<br>JPA artefacts, their counterparts in the database and their dependencies.<br></p>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="assets/img/avatars/avatar3.jpg">
-                            <div class="card-body info">
-                                <h4 class="card-title">Felix Tietz</h4>
-                                <p class="card-text">Developer</p>
-                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
-                            </div>
-                        </div>
+                    <div class="col-sm-3">
+                        <h5>Business Analysts</h5>
+                        <p>find&nbsp;an overview of the domain objects, their descriptions, business relevance and inter-relations.<br></p>
                     </div>
                 </div>
             </div>
@@ -121,42 +82,24 @@
     <footer class="page-footer dark">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-3 offset-xl-3">
                     <h5>Get started</h5>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sign up</a></li>
-                        <li><a href="#">Downloads</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="downloads.html">Downloads</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xl-3 offset-xl-0">
                     <h5>About us</h5>
                     <ul>
-                        <li><a href="#">Company Information</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Reviews</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Support</h5>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Help desk</a></li>
-                        <li><a href="#">Forums</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Legal</h5>
-                    <ul>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="about-us.html">Company Information</a></li>
+                        <li><a href="contact-us.html">Contact us</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="footer-copyright">
-            <p>© 2020 Copyright Text</p>
+            <p>© 2020 DataDoc</p>
         </div>
     </footer>
     <script src="assets/js/jquery.min.js"></script>
