@@ -14,7 +14,7 @@
    version="1.1"
    id="svg839"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="new.svg"
+   sodipodi:docname="japedo_logo.svg"
    inkscape:export-filename="C:\Users\felti\git\datadoc\website\logo\new-logo\japedo_logo_x512.png"
    inkscape:export-xdpi="192"
    inkscape:export-ydpi="192">
@@ -36,9 +36,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284273"
-     inkscape:cx="100.68755"
-     inkscape:cy="165.99502"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="22.345397"
+     inkscape:cy="180.86716"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -61,7 +61,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -130,7 +130,7 @@
        sodipodi:end="1.5707963"
        sodipodi:open="true"
        sodipodi:arc-type="arc"
-       d="m 33.84021,4.3629398 a 29.501043,29.503729 0 0 1 25.548653,14.7518642 29.501043,29.503729 0 0 1 0,29.503729 29.501043,29.503729 0 0 1 -25.548653,14.751865" />
+       d="M 33.84021,4.3629398 A 29.501043,29.503729 0 0 1 63.341253,33.866669 29.501043,29.503729 0 0 1 33.84021,63.370398" />
     <rect
        style="fill:#3b99e0;fill-opacity:1;stroke:none;stroke-width:0.341066;stroke-linejoin:round"
        id="rect844"
@@ -151,17 +151,17 @@
        sodipodi:arc-type="slice"
        d="M 33.866667,26.458334 A 10.583334,10.583334 0 0 1 44.450001,15.875 10.583334,10.583334 0 0 1 55.033335,26.458334 H 44.450001 Z" />
     <path
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.441665;stroke-linejoin:round"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.442768;stroke-linejoin:round"
        id="path850"
        sodipodi:type="arc"
        sodipodi:cx="44.450001"
-       sodipodi:cy="26.511251"
+       sodipodi:cy="26.53771"
        sodipodi:rx="5.291667"
-       sodipodi:ry="5.291667"
+       sodipodi:ry="5.3181252"
        sodipodi:start="3.1415927"
        sodipodi:end="0"
        sodipodi:arc-type="slice"
-       d="m 39.158334,26.511251 a 5.291667,5.291667 0 0 1 2.645833,-4.582718 5.291667,5.291667 0 0 1 5.291667,0 5.291667,5.291667 0 0 1 2.645834,4.582718 h -5.291667 z" />
+       d="m 39.158334,26.53771 a 5.291667,5.3181252 0 0 1 5.291667,-5.318125 5.291667,5.3181252 0 0 1 5.291667,5.318125 h -5.291667 z" />
     <rect
        style="opacity:1;fill:#3b99e0;fill-opacity:1;stroke:none;stroke-width:0.341066;stroke-linejoin:round"
        id="rect844-9"
@@ -184,17 +184,17 @@
        d="m -30.691668,-41.804169 a 10.583334,10.583334 0 0 1 10.583334,-10.583334 10.583334,10.583334 0 0 1 10.5833344,10.583334 H -20.108334 Z"
        transform="scale(-1)" />
     <path
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.441666;stroke-linejoin:round"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.442769;stroke-linejoin:round"
        id="path850-9"
        sodipodi:type="arc"
        sodipodi:cx="-20.108334"
-       sodipodi:cy="-41.751251"
+       sodipodi:cy="-41.724792"
        sodipodi:rx="5.291667"
-       sodipodi:ry="5.291667"
+       sodipodi:ry="5.3181252"
        sodipodi:start="3.1415927"
        sodipodi:end="0"
        sodipodi:arc-type="slice"
-       d="m -25.400001,-41.751251 a 5.291667,5.291667 0 0 1 5.291667,-5.291667 5.291667,5.291667 0 0 1 5.291667,5.291667 h -5.291667 z"
+       d="m -25.400001,-41.724792 a 5.291667,5.3181252 0 0 1 5.291667,-5.318126 5.291667,5.3181252 0 0 1 5.291667,5.318126 h -5.291667 z"
        transform="scale(-1)" />
   </g>
 </svg>
