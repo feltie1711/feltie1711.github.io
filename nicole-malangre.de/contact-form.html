@@ -3,18 +3,26 @@
 
 <head>
     <meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./assets/js/functions.js"></script>
+ <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Projects - Brand</title>
-    <meta property="og:image" content="assets/img/nicole-main-page.png">
+    <meta property="og:image" content="https://www.nicole-malangre.de/assets/img/nicole-main-page.png">
     <meta name="description" content="Nicole Malangré - studierte Opensängerin mit langjähriger Musical-Erfahrung - Gesangsunterricht - Klavierunterricht - Musikalische Früherziehung - Gesangliche Begleitung von Feierlichkeiten">
     <meta property="og:type" content="website">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.5/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body>
@@ -28,7 +36,6 @@
                             <div class="dropdown-menu"><a class="dropdown-item" href="cv-main.html">Über mich</a><a class="dropdown-item" href="cv-trainings.html">Ausbildung</a><a class="dropdown-item" href="cv-shows.html">Bühnenerfahrung</a><a class="dropdown-item" href="cv-teaching.html">Lehrende Tätigkeiten</a></div>
                         </div>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="pictures.html">Fotos</a></li>
                     <li class="nav-item"><a class="nav-link" href="recordings.html">Hörproben</a></li>
                     <li class="nav-item">
                         <div class="nav-item dropdown" style="padding: 0px;"><a aria-expanded="false" data-bs-toggle="dropdown" class="nav-link">Kontakt</a>
@@ -47,10 +54,10 @@
                 </div>
                 <div class="row" style="min-width: 100%;max-width: 100%;">
                     <div class="col" style="width: 100%;min-width: 100%;">
-                        <div class="heading">
+                        <div class="heading" style="margin-bottom: 20px;">
                             <p>Senden Sie mir gerne über dieses Formular eine Anfrage zu. Ich werde sie schnellstmöglich beantworten.<br></p>
                         </div>
-                        <form style="padding-top: 0;filter: contrast(96%);box-shadow: 0px 0px 4px 1px rgb(132,132,132);max-width: 70%;">
+                        <form style="filter: contrast(96%);box-shadow: 0px 0px 4px 1px rgb(132,132,132);max-width: 70%;padding-top: 0;">
                             <div class="mb-3"><label class="form-label" for="name" style="margin-top: 40px;">Ihr Name</label><input class="form-control item" type="text" id="name"></div>
                             <div class="mb-3"><label class="form-label" for="email">E-Mail</label><input class="form-control item" type="email" id="email"></div>
                             <div class="mb-3"><label class="form-label" for="message">Nachricht</label><textarea class="form-control item" id="message" style="min-height: 200px;"></textarea></div>
@@ -61,10 +68,12 @@
             </div>
         </section>
     </main>
-    <footer class="page-footer">
-        <div class="container">
-            <div class="links"><a href="./cv-main.html">Über mich</a><a href="contact-form.html">Kontakt</a><a href="#">Projekte</a></div>
-            <div class="social-icons"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram-outline"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a></div>
+    <footer class="page-footer" style="padding: 0px;background: var(--bs-gray-100);">
+        <div class="container d-xl-flex flex-column justify-content-xl-center" style="padding-top: 16px;padding-bottom: 32px;">
+            <div class="links"><a href="impressum.html">Impressum</a></div>
+            <div class="links">
+                <p style="color: var(--bs-gray-600);">Nicole Malangré - 2022</p>
+            </div>
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -78,8 +87,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
     <script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.html5.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.print.min.js"></script>
+    <script src="assets/js/datatable.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
 
 </html>

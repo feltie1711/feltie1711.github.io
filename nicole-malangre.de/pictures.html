@@ -1,35 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html style="height: 100%;">
 
 <head>
     <meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./assets/js/functions.js"></script>
+ <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Projects - Brand</title>
-    <meta property="og:image" content="assets/img/nicole-main-page.png">
+    <meta property="og:image" content="https://www.nicole-malangre.de/assets/img/nicole-main-page.png">
     <meta name="description" content="Nicole Malangré - studierte Opensängerin mit langjähriger Musical-Erfahrung - Gesangsunterricht - Klavierunterricht - Musikalische Früherziehung - Gesangliche Begleitung von Feierlichkeiten">
     <meta property="og:type" content="website">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.5/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
-<body>
+<body style="height: 100%;">
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient" style="background: linear-gradient(90deg, var(--bs-purple) 24%, rgb(179,85,203));">
         <div class="container"><a class="navbar-brand logo" href="#">Nicole Malangré</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html" style="background: rgba(255,255,255,0);">Home</a></li>
                     <li class="nav-item">
                         <div class="nav-item dropdown" style="padding: 0px;"><a aria-expanded="false" data-bs-toggle="dropdown" class="nav-link">Über mich</a>
                             <div class="dropdown-menu"><a class="dropdown-item" href="cv-main.html">Über mich</a><a class="dropdown-item" href="cv-trainings.html">Ausbildung</a><a class="dropdown-item" href="cv-shows.html">Bühnenerfahrung</a><a class="dropdown-item" href="cv-teaching.html">Lehrende Tätigkeiten</a></div>
                         </div>
                     </li>
-                    <li class="nav-item"><a class="nav-link active" href="pictures.html">Fotos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="recordings.html">Hörproben</a></li>
+                    <li class="nav-item"><a class="nav-link" href="recordings.html" style="color: rgb(255, 255, 255);background: rgba(255,255,255,0);">Hörproben</a></li>
                     <li class="nav-item">
                         <div class="nav-item dropdown" style="padding: 0px;"><a aria-expanded="false" data-bs-toggle="dropdown" class="nav-link">Kontakt</a>
                             <div class="dropdown-menu"><a class="dropdown-item" href="contact-form.html">Kontakt</a><a class="dropdown-item" href="contact-booking.html">Preise</a></div>
@@ -40,18 +47,29 @@
         </div>
     </nav>
     <main class="page projects-page">
-        <section class="portfolio-block projects-with-sidebar">
-            <div class="container" style="margin: 0px 12px;">
-                <div class="row">
-                    <div class="col"></div>
+        <section class="portfolio-block projects-with-sidebar" style="max-width: 100%;padding: 0;">
+            <div class="container" style="margin: 0;text-align: center;max-width: 100%;">
+                <div class="heading" style="margin-top: 80px;margin-bottom: 40px;">
+                    <h2>Fotos</h2>
+                </div>
+                <p class="text-center" style="margin-left: 10%;margin-right: 10%;font-size: 20px;">Schauen Sie gerne durch Aufnahmen aus den verschiedensten Aufführungen.</p>
+                <div class="dropdown" style="padding: 12px;"><a class="btn btn-secondary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" role="button" id="selectEvent" target="_top">Auswahl</a>
+                    <div class="dropdown-menu"><a class="dropdown-item" href="#" onclick="setDiashow(&quot;aladdin&quot;);">Aladdin</a><a class="dropdown-item" href="#" onclick="setDiashow(&quot;casablanca&quot;);">Casablanca</a><a class="dropdown-item" href="#" onclick="setDiashow(&quot;catharine&quot;);">Catharine</a><a class="dropdown-item" href="#" onclick="setDiashow(&quot;fledermaus&quot;);">Fledermaus</a><a class="dropdown-item" href="#" onclick="setDiashow(&quot;fma&quot;);">FMA</a><a class="dropdown-item" href="#" onclick="setDiashow(&quot;gruenfried&quot;);">Grünfried und Liebalda</a><a class="dropdown-item" href="#" onclick="setDiashow(&quot;roessl&quot;);">Im weißen Rössl</a><a class="dropdown-item" href="#" onclick="setDiashow(&quot;lord&quot;);">Der kleine Lord</a><a class="dropdown-item" href="#" onclick="setDiashow(&quot;ludwig&quot;);">Ludwig</a><a class="dropdown-item" href="#" onclick="setDiashow(&quot;mamma&quot;);">Mamma Mia</a><a class="dropdown-item" href="#" onclick="setDiashow(&quot;paradise&quot;);">Paradise of pain</a><a class="dropdown-item" href="#" onclick="setDiashow(&quot;phantom&quot;);">Das Phantom der Oper</a><a class="dropdown-item" href="#" onclick="setDiashow(&quot;sekretaerinnen&quot;);">Sekretärinnen</a><a class="dropdown-item" href="#" onclick="setDiashow(&quot;wwry&quot;);">We will rock you</a></div>
+                </div>
+                <div class="row justify-content-center align-items-center" style="padding-left: 10%;padding-right: 10%;">
+                    <div class="col" id="diashow-slider" style="min-height: 100px;">
+                        <div id="slideshow" class="slideshow"></div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="page-footer" style="padding-top: 50px;padding-bottom: 20px;">
-        <div class="container">
-            <div class="links"><a href="./cv-main.html">Über mich</a><a href="contact-form.html">Kontakt</a><a href="impressum.html">Impressum</a></div>
-            <div class="social-icons"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram-outline"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a></div>
+    <footer class="page-footer" style="padding: 0px;background: var(--bs-gray-100);">
+        <div class="container d-xl-flex flex-column justify-content-xl-center" style="padding-top: 16px;padding-bottom: 32px;">
+            <div class="links"><a href="impressum.html">Impressum</a></div>
+            <div class="links">
+                <p style="color: var(--bs-gray-600);">Nicole Malangré - 2022</p>
+            </div>
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -65,8 +83,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
     <script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.html5.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.print.min.js"></script>
+    <script src="assets/js/datatable.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
 
 </html>

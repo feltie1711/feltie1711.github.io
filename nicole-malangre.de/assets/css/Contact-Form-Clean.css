@@ -84,3 +84,19 @@
   color: #fff;
 }
 
+.column {
+}
+
+html {
+}
+
+img {
+  width: auto;
+  height: 100%;
+}
+
+prev-child {
+  height: 100%;
+  margin: 0 20px;
+}
+
